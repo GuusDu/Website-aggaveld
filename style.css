@@ -1,0 +1,109 @@
+html{
+  background-image: linear-gradient( #D264E9, #6EC6CE );
+  background-repeat: no-repeat;
+  Min-height: 100%;
+} 
+
+.title {
+  font-size: 30px;
+  margin-top: 30px;
+}
+
+.title h1{
+  color: #0005BC;
+  display: inline-block;
+  position: relative;
+  left: calc(50% - 163.29px);
+  margin: 0px;
+}
+
+.poster {
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 259px);
+  z-index: -1;
+}
+
+.topnav a{
+  position: relative;
+  left: calc(50% - 190px);
+  text-decoration: none;
+  color: White;
+  padding-left: 10px;
+}
+
+.topnav a:hover{
+  color: #6377F9;
+  transition: 500ms ease;
+}
+
+.topnav a.active:hover{
+  color: #6377F9;
+  transition: 500ms ease;
+}
+
+.topnav a.active{
+  color: #1930C6;
+}
+
+.footer .instagram h3{
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  bottom: 10px;
+  left: calc(50% - 81.15px);
+}
+
+.footer .facebook h3{
+  display: inline-block;
+  position: relative;
+  margin-top: 20px;
+  bottom: 30px;
+  left: calc(50% - 81.15px);
+}
+
+.footer .instagram img{
+  position: relative;
+  left: calc(50% - 81.15px);
+  top: 20px;
+}
+
+.footer  .facebook img{
+  margin: 10px;
+  position: relative;
+  display: inline-block;
+  left: calc(50% - 81.15px);
+}
+.bar{
+    transition: all 500ms ease;
+}
+.dropdown .bar:hover{
+  transform: rotate(30deg);
+}
+
+.dropdown {
+  position: absolute;
+  left: calc(50% - 254px);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 150px;
+  background-color: #f1f1f1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
